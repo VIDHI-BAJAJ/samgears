@@ -1,0 +1,1 @@
+"use strict";function optiF(){window.setTimeout(function(){var e=document.createEvent("MouseEvents");e.initEvent("wheel",!0,!0),e.deltaY=10,window.dispatchEvent(e),console.log("scroll")},1e3)}document.addEventListener("DOMContentLoaded",optiF);
